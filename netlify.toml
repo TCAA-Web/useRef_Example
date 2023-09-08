@@ -1,4 +1,4 @@
 [build]
-  base    = "useRef_Example"
-  publish = "useRef_Example/dist/"
+  base    = "/useRef_Example"
+  publish = "/dist/"
   command = "vite build"
