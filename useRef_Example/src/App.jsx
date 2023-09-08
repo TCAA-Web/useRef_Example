@@ -46,7 +46,7 @@ function App() {
   return (
     <div ref={divRef}>
         <ScrollBar scrollPercentage={scrollPercent}/>
-        <DivContainer id={id} scrollPercentage={scrollPercent} number={1}/>
+        <DivContainer scrollPercentage={scrollPercent} number={1}/>
         <DivContainer scrollPercentage={scrollPercent} number={2}/>
         <DivContainer scrollPercentage={scrollPercent} number={3}/>
         <DivContainer scrollPercentage={scrollPercent} number={4}/>
